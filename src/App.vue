@@ -13,7 +13,7 @@ export default {
   },
   mounted () {
     console.log(ace)
-    ace.edit("editor");
+    ace.edit("editor")
   }
 }
 </script>
@@ -25,6 +25,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+html, body, #app {
+  min-height: 100vh;
+  margin: 0;
+}
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#editor {
+  width: 500px;
+  height: 400px;
 }
 </style>

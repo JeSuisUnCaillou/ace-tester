@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="editor"></div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ace from 'ace-builds'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+  },
+  mounted () {
+    console.log(ace)
+    ace.edit("editor");
   }
 }
 </script>

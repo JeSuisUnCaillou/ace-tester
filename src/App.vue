@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <pre>
+      <textarea>
+        Lo🤷‍♂️rem
+      </textarea>
+    </pre>
     <div id="editor"></div>
   </div>
 </template>
@@ -16,7 +21,7 @@ export default {
   },
   mounted () {
     this.editor = ace.edit("editor")
-    this.editor.setValue('Lo🤷‍♂️rem ipsum dolor sit amet, consectetur adipiscing elit.\nSus🤦😃📢🔔⌚❌➰⏳pendisse rutrum nisi elit, vitae sodales orci ullamcorper nec.\nNullam sed quam vel enim sollicitudin vulputate in vel orci.\nInteger iaculis nec massa vitae fringilla. Proin nec bibendum ante.\nEtiam iaculis risus bibendum sapien laoreet, sit amet blandit tellus fermentum.\nCurabitur bibendum, erat vitae malesuada mattis, nunc mauris pellentesque lorem, sed consequat enim augue vitae elit. Nulla sodales eros purus, et dignissim erat cursus vel.')
+    this.editor.setValue('Lo🤷‍♂️rem ipsum dolor sit amet, consectetur adipiscing elit.\nSus🤦😃📢🔔⌚❌➰⏳pendisse rutrum nisi elit, vitae sodales orci ullamcorper nec.')
   }
 }
 </script>

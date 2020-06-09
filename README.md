@@ -1,5 +1,13 @@
 # ace-tester
 
+test emojis compositions : https://apps.timwhitlock.info/unicode/inspect
+
+build ace :
+```
+node ./Makefile.dryice.js -nc --target ../ace-builds
+node ./Makefile.dryice.js --target ../ace-builds
+```
+
 ## Project setup
 ```
 npm install

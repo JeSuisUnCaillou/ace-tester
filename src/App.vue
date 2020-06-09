@@ -21,7 +21,7 @@ export default {
   },
   mounted () {
     this.editor = ace.edit("editor")
-    this.editor.setValue('Lo🤷‍♂️rem ipsum dolor sit amet, consectetur adipiscing elit.\nSus🤦😃📢🔔⌚❌➰⏳pendisse rutrum nisi elit, vitae sodales orci ullamcorper nec.')
+    this.editor.setValue('Lo🤷‍♂️rem\nip👨‍🎨sum dolor sit amet, consectetur adipiscing elit.\nSus🤦😃📢🔔⌚❌➰⏳pendisse rutrum nisi elit, vitae sodales orci ullamcorper nec.')
   }
 }
 </script>

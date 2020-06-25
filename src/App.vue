@@ -21,7 +21,7 @@ export default {
   },
   mounted () {
     this.editor = ace.edit("editor")
-    this.editor.setValue('Lo🤷‍♂️rem\nip👨‍🎨sum dolor sit amet, consectetur adipiscing elit.\nSus🤦😃📢🔔⌚❌➰⏳pendisse rutrum nisi elit, vitae sodales orci ullamcorper nec.')
+    this.editor.setValue('ho🏴󠁧󠁢󠁥󠁮󠁧󠁿la\nbonj🕵️‍♂️our je m\'appelle Jordy\nLo🤷‍♂️rem\nip👨‍🎨sum dolor sit amet, consectetur adipiscing elit.\nSus🤦😃📢🔔⌚❌➰⏳pendisse rutrum nisi elit')
   }
 }
 </script>
@@ -44,7 +44,8 @@ html, body, #app {
   justify-content: center;
 }
 #editor {
-  width: 500px;
+  width: 100%;
   height: 400px;
+  font-size: 3rem;
 }
 </style>

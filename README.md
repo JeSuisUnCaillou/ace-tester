@@ -1,6 +1,7 @@
 # ace-tester
 
 test emojis compositions : https://apps.timwhitlock.info/unicode/inspect
+all utf codes : https://www.utf8-chartable.de/unicode-utf8-table.pl
 
 build ace :
 ```
